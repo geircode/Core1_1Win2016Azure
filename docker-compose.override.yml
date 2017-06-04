@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  core1_1win2016azure:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  core1_1win2016azure:
+    image: core1_1win2016azure
+    build:
+      context: ./Core1_1Win2016Azure
+      dockerfile: Dockerfile
